@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-<a href="{% url 'home' %}">Home<a/> | <a href="{% url 'about' %}">About</a>
+{% extends 'base.html'%}
 
-    <h1>HEllo</h1>
-</body>
-</html>
+{% block content %}
+<h1>Home</h1>
+{% endblock %}
